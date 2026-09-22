@@ -1,0 +1,11 @@
+[package]
+name = "edtech-key-incident"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1"
+
+[[bin]]
+name = "key-incident"
+path = "src/key_incident.rs"
